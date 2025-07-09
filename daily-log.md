@@ -26,9 +26,9 @@
 1. [Milestone 1: Getting Started with Telecom Networks](docs/networking.md)
 
 **📝 Daily Logs:**  
-- `08:30–10:00`: [1.1 Intro to Networking](docs/networking.md#11-introduction-to-networking)  
+- `08:30–10:00`: [1.1 Intro to Networking](docs/networking.md#11-introduction-to-networking)
 - `10:15–11:30`: Making A Trello Card and GitHub Repository
-- `13:00–15:00`: Completed [Module 1 : Communication in a Connected World](docs/networking.md#module-4-home-network)
+- `13:00–15:00`: Completed [Module 1 : Communication in a Connected World](docs/networking.md#11-introduction-to-networking)
 
 ---
 
@@ -39,7 +39,7 @@
 
 **📝 Daily Logs:**  
 - `08:00–14:00`: Passport administration and document preparation for NTUST internship (non-technical task)  
-- `14:00–15:30`: Completed [Module 2 : Network Components, Types, and Connections](docs/networking.md#module-4-home-network) 
+- `14:00–15:30`: Completed [Module 2 : Network Components, Types, and Connections](docs/networking.md#11-introduction-to-networking)
 
 ---
 
@@ -49,8 +49,8 @@
 1. [Milestone 1: Getting Started with Telecom Networks](docs/networking.md)
 
 **📝 Daily Logs:**  
-- `08:30–10:00`: Reviewed and completed [Module 3: Wireless and Mobile Networks](docs/networking.md#module-3-wireless-networks)  
-- `10:15–12:00`: Completed [Module 4: Build a Home Network](docs/networking.md#module-4-home-network) and Checkpoint Exam  
-- `13:00–14:00`: Studied [Module 5: Communication Principles](docs/networking.md#module-5-communication-principles)  
-- `14:15–15:30`: Continued [Module 6: Network Media](docs/networking.md#module-6-network-media)
+- `08:30–10:00`: Reviewed and completed [Module 3: Wireless and Mobile Networks](docs/networking.md#11-introduction-to-networking)
+- `10:15–12:00`: Completed [Module 4: Build a Home Network](docs/networking.md#11-introduction-to-networking) and Checkpoint Exam  
+- `13:00–14:00`: Studied [Module 5: Communication Principles](docs/networking.md#11-introduction-to-networking)
+- `14:15–15:30`: Continued [Module 6: Network Media](docs/networking.md#11-introduction-to-networking)
 
