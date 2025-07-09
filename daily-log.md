@@ -1,7 +1,4 @@
 # 📚 Internship Documentation
-## 📑 Table of Contents
-<!-- GitHub will auto-generate this ToC based on headers. You can also use a VSCode plugin or Markdown TOC generator if needed. -->
-
 ---
 
 ## 🏁 Milestones
@@ -43,6 +40,8 @@
 **📝 Daily Logs:**  
 - `08:00–14:00`: Passport administration and document preparation for NTUST internship (non-technical task)  
 - `14:00–15:30`: Completed [Module 2 : Network Components, Types, and Connections](docs/networking.md#module-4-home-network) 
+
+---
 
 - ### 2025-07-09
 
