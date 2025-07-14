@@ -140,3 +140,30 @@ Short-term Goals:
 **📝 Daily Logs:**  
 - `9:00–12:00`: Read basic S2X/RCS2 descriptions, Jotted down key differences (DL vs UL)
 - `13:00–17:00`: Found ETSI TS 102 606 (S2X) and TS 101 545-2 (RCS2), Started rough block diagram in notebook
+
+---
+
+- ### 2025-07-14
+
+**🎯 Short-term Goal:**  
+[Milestone 4: Study DVB-S2X and DVB-RCS2]
+Short-term Goals:
+- Study DVB-S2X and DVB-RCS2 System Architecture 
+- Resource Management Algorithms in DVB
+- Skim 1 key papers
+
+**📝 Daily Logs:**  
+- `9:00–12:00`: Draft system architecture diagrams for:
+    - DVB-S2X (Downlink): UT ← Satellite ← FT
+    - DVB-RCS2 (Uplink): UT → Satellite → FT
+    - Label all major components
+    - Highlight direction of traffic and interfaces    
+- `13:00–15:30`: Create tables/notes for both standards
+    - DVB-S2X: BBFRAME, FECFRAME, PLFRAME, SuperFrame
+    - DVB-RCS2: MF-TDMA frame, time slots, channels (ACM/NCC control)
+    - Identify data/control/management channels (uplink vs downlink)
+- `15:30–17:00`: Skim 1 key papers. Note Down:
+    - System architecture and signaling
+    - Traffic model (e.g., CBR/VBR), bandwidth allocation
+    - QoS mechanism (diffserv, MPLS)
+    - Jot any terms or unfamiliar algorithm
