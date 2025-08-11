@@ -1,7 +1,7 @@
 # Study Notes: DVB End-to-End System Architecture
 
 * **Author:** Petrajoy Davidson
-* **Date:** 2025-07-29
+* **Date:** 2025-07-29- 2025-07-31
 * **Goal:** Deconstruct the DVB-E2E architecture for anwering a question. That question is "How can we implement NTN NR on top of DVB L1"
 * **Slides:** 1-11
 
