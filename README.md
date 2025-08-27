@@ -180,7 +180,7 @@
 ### 2025.07.29
 
 **🎯 Short-term Goal:**  
-1. Make a 50 Slide PPT [Go To GitHub Folder](https://github.com/petrajoyd/intern_repo/tree/2026-Spring-MS-Petrajoy_Davidson/slide_draft)
+1. Milestone 4: Make a 50 Slide PPT [Go To GitHub Folder](https://github.com/petrajoyd/intern_repo/tree/2026-Spring-MS-Petrajoy_Davidson/slide_draft)
 2. Wrap up reading and note-taking on DVB-S2X and DVB-RCS2 specs
 3. Extract system architecture diagrams and L1 frame references
 4. Draft slides for “System Architecture” and “Protocol Stack” sections
@@ -216,7 +216,7 @@
 ### 2025.07.31
 
 **🎯 Short-term Goal:**  
-1. Make a 50 Slide PPT [Go To GitHub Folder](https://github.com/petrajoyd/intern_repo/tree/2026-Spring-MS-Petrajoy_Davidson/slide_draft)
+1. Milestone 4: Make a 50 Slide PPT [Go To GitHub Folder](https://github.com/petrajoyd/intern_repo/tree/2026-Spring-MS-Petrajoy_Davidson/slide_draft)
 2. Complete key reading sections from DVB-S2X and DVB-RCS2
 3. Extract diagrams: System Architecture, Protocol Stack, and notes on L1 Frame Structure
 4. Start drafting slides 1–10 (System Architecture + Protocol Stack)
@@ -250,7 +250,7 @@
 ### 2025.08.01
 
 **🎯 Short-term Goal:**  
-1. Make a 50 Slide PPT [Go To GitHub Folder](https://github.com/petrajoyd/intern_repo/tree/2026-Spring-MS-Petrajoy_Davidson/slide_draft)
+1. Milestone 4: Make a 50 Slide PPT [Go To GitHub Folder](https://github.com/petrajoyd/intern_repo/tree/2026-Spring-MS-Petrajoy_Davidson/slide_draft)
 2. Deepen explanation of DVB-RCS2 architecture
 3. Visualize Forward and Return link logic
 4. Introduce initial protocol stack overview
@@ -276,7 +276,7 @@
 ### 2025.08.04
 
 **🎯 Short-term Goal:**  
-1. Make a 50 Slide PPT [Go To GitHub Folder](https://github.com/petrajoyd/intern_repo/tree/2026-Spring-MS-Petrajoy_Davidson/slide_draft)
+1. Milestone 4: Make a 50 Slide PPT [Go To GitHub Folder](https://github.com/petrajoyd/intern_repo/tree/2026-Spring-MS-Petrajoy_Davidson/slide_draft)
 2. Insert DVB-S2X protocol stack explanation as new Slide 11 (before RCS2 begins)
 3. Generate visual for DVB-S2X layered stack (IP → GSE → BBFRAME → PLFRAME)
 4. Adjust slide numbering: shift existing RCS2 slides to start from Slide 14
@@ -302,7 +302,7 @@
 ### 2025.08.05
 
 **🎯 Short-term Goal:**  
-1. Make a 50 Slide PPT [Go To GitHub Folder](https://github.com/petrajoyd/intern_repo/tree/2026-Spring-MS-Petrajoy_Davidson/slide_draft)
+1. Milestone 4: Make a 50 Slide PPT [Go To GitHub Folder](https://github.com/petrajoyd/intern_repo/tree/2026-Spring-MS-Petrajoy_Davidson/slide_draft)
 2. Transition from Protocol Stack to Layer 1 focus
 3. Begin deep-diving into BBFRAME → PLFRAME composition
 4. Highlight synchronization elements (PLS, pilots)
@@ -338,7 +338,7 @@
 ### 2025.08.06
 
 **🎯 Short-term Goal:**  
-1. Make a 50 Slide PPT [Go To GitHub Folder](https://github.com/petrajoyd/intern_repo/tree/2026-Spring-MS-Petrajoy_Davidson/slide_draft)
+1. Milestone 4: Make a 50 Slide PPT [Go To GitHub Folder](https://github.com/petrajoyd/intern_repo/tree/2026-Spring-MS-Petrajoy_Davidson/slide_draft)
 2. Finalize return link framing slides (Slides 25–27)
 3. Begin transition from return framing to scheduling/MF-TDMA view
 4. Cover both framing mechanics and how it fits timing/modulation
@@ -369,7 +369,7 @@
 ### 2025.08.07
 
 **🎯 Short-term Goal:**  
-1. Make a 50 Slide PPT [Go To GitHub Folder](https://github.com/petrajoyd/intern_repo/tree/2026-Spring-MS-Petrajoy_Davidson/slide_draft)
+1. Milestone 4: Make a 50 Slide PPT [Go To GitHub Folder](https://github.com/petrajoyd/intern_repo/tree/2026-Spring-MS-Petrajoy_Davidson/slide_draft)
 2. Introduce the concept of logical vs physical channels
 3. Build foundational slides explaining what each represents in the DVB context
 4. Relate back to previously discussed framing structures
@@ -399,7 +399,7 @@
 ### 2025.08.11
 
 **🎯 Short-term Goal:**  
-1. Make a 50 Slide PPT [Go To GitHub Folder](https://github.com/petrajoyd/intern_repo/tree/2026-Spring-MS-Petrajoy_Davidson/slide_draft)
+1. Milestone 4: Make a 50 Slide PPT [Go To GitHub Folder](https://github.com/petrajoyd/intern_repo/tree/2026-Spring-MS-Petrajoy_Davidson/slide_draft)
 2. Explain NTN NR in ETSI-aligned terms (no oversimplification)
 3. Identify NTN NR attributes relevant to DVB-S2X and DVB-RCS2 L1
 4. Show protocol stack mapping NR over DVB L1 (forward & return)
@@ -434,7 +434,7 @@
 ### 2025.08.12
 
 **🎯 Short-term Goal:**  
-1. Make a 50 Slide PPT [Go To GitHub Folder](https://github.com/petrajoyd/intern_repo/tree/2026-Spring-MS-Petrajoy_Davidson/slide_draft)
+1. Milestone 4: Make a 50 Slide PPT [Go To GitHub Folder](https://github.com/petrajoyd/intern_repo/tree/2026-Spring-MS-Petrajoy_Davidson/slide_draft)
 2. Collect all study notes, diagrams, and references from daily work sessions.
 3. Upload each day’s notes to the GitHub repository in chronological order.
 4. Add links to each hourly task in the Trello cards for traceability.
@@ -459,7 +459,7 @@
 ### 2025.08.13
 
 **🎯 Short-term Goal:**  
-1. Make a 50 Slide PPT [Go To GitHub Folder](https://github.com/petrajoyd/intern_repo/tree/2026-Spring-MS-Petrajoy_Davidson/slide_draft)
+1. Milestone 4: Make a 50 Slide PPT [Go To GitHub Folder](https://github.com/petrajoyd/intern_repo/tree/2026-Spring-MS-Petrajoy_Davidson/slide_draft)
 2. Merge and simplify slides per Prof’s feedback (combine figures, add missing definitions, remove unnecessary content).
 3. Contact Kitty to collaborate on slide fixes and split workload.
 4. Collect all study notes, diagrams, and references from daily work sessions.
@@ -486,7 +486,7 @@
 ### 2025.08.14
 
 **🎯 Short-term Goal:**  
-1. Make a 50 Slide PPT [Go To GitHub Folder](https://github.com/petrajoyd/intern_repo/tree/2026-Spring-MS-Petrajoy_Davidson/slide_draft)
+1. Milestone 4: Make a 50 Slide PPT [Go To GitHub Folder](https://github.com/petrajoyd/intern_repo/tree/2026-Spring-MS-Petrajoy_Davidson/slide_draft)
 2. Continue uploading study notes from remaining backlog to GitHub.
 3. Push all relevant codes (Graphviz diagrams, scripts, data processing) to GitHub.
 4. Revise slides according to Prof’s recommendations:
@@ -514,7 +514,7 @@
 ### 2025.08.21
 
 **🎯 Short-term Goal:**  
-1. Make a 50 Slide PPT [Go To GitHub Folder](https://github.com/petrajoyd/intern_repo/tree/2026-Spring-MS-Petrajoy_Davidson/slide_draft)
+1. Milestone 4: Make a 50 Slide PPT [Go To GitHub Folder](https://github.com/petrajoyd/intern_repo/tree/2026-Spring-MS-Petrajoy_Davidson/slide_draft)
 2. Create branch 2025-Fall-MS-Joy in the lab repo.
 3. Set up 3 required files/folders:
 4. Upload study notes from backlog (Aug 6–11).
