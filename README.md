@@ -59,18 +59,18 @@
 
 **📝 Daily Logs:**  
 - `9:00–12:00`:
-  - Draft system architecture diagrams for:
+  - Draft system architecture diagrams for [Go To: Study Notes](https://github.com/petrajoyd/intern_repo/blob/2026-Spring-MS-Petrajoy_Davidson/study_notes/DVB_System-Architecture.md):
     - DVB-S2X (Downlink): UT ← Satellite ← FT
     - DVB-RCS2 (Uplink): UT → Satellite → FT
-  - Label all major components: UT (User Terminal), FT (Feeder Terminal/Gateway), Satellite, GWs, NMS
-  - Highlight direction of traffic and interfaces
+  - Label all major components: UT (User Terminal), FT (Feeder Terminal/Gateway), Satellite, GWs, NMS [Jump To: Notes](https://github.com/petrajoyd/intern_repo/blob/2026-Spring-MS-Petrajoy_Davidson/study_notes/DVB_System-Architecture.md#dvb-s2x-direction-of-traffic-and-interfaces-downlink)
+  - Highlight direction of traffic and interfaces [Jump To: Notes](https://github.com/petrajoyd/intern_repo/blob/2026-Spring-MS-Petrajoy_Davidson/study_notes/DVB_System-Architecture.md#direction-of-traffic)
 - `13:00–15:30`:
   - Create tables/notes for both standards:
-    - DVB-S2X: BBFRAME, FECFRAME, PLFRAME, SuperFrame
-    - DVB-RCS2: MF-TDMA frame, time slots, channels (ACM/NCC control)
-  - Identify data/control/management channels (uplink vs downlink)
+    - DVB-S2X: BBFRAME, FECFRAME, PLFRAME, SuperFrame [Jump To: Notes](https://github.com/petrajoyd/intern_repo/blob/2026-Spring-MS-Petrajoy_Davidson/study_notes/DVB-S2X_SPECS.md)
+    - DVB-RCS2: MF-TDMA frame, time slots, channels (ACM/NCC control) [Jump To: Notes](https://github.com/petrajoyd/intern_repo/blob/2026-Spring-MS-Petrajoy_Davidson/study_notes/DVB-RSC2_SPECS.md)
+  - Identify data/control/management channels (uplink vs downlink) [Jump To: Notes]((https://github.com/petrajoyd/intern_repo/blob/2026-Spring-MS-Petrajoy_Davidson/slide_draft/ProtStack_DVB.md#dvb-s2x-downlink-architecture-forward-link))
 - `15:30–17:00`:
-  - Skim 1–2 key papers
+  - Skim 1–2 key papers [Go To: Journal Notes](https://github.com/petrajoyd/intern_repo/blob/2026-Spring-MS-Petrajoy_Davidson/journals/SJ_DT%3AADTFN-GSSDAV.md)
   - Note down:
     - System architecture and signaling
     - Traffic model (e.g., CBR/VBR), bandwidth allocation
@@ -91,11 +91,11 @@
 
 **📝 Daily Logs:**  
 - `9:00–10:00`:
-  - Revisited DVB-S2X and DVB-RCS2 architecture diagrams
-  - Cleaned up annotations on system components (FT, UT, Satellite, NMS/NCC)
-  - Added missing interface directions and RF control flow
+  - Revisited DVB-S2X and DVB-RCS2 architecture diagrams [Go To: Study Notes](https://github.com/petrajoyd/intern_repo/blob/2026-Spring-MS-Petrajoy_Davidson/study_notes/DVB_System-Architecture.md)
+  - Cleaned up annotations on system components (FT, UT, Satellite, NMS/NCC) [Jump To: Study Notes](https://github.com/petrajoyd/intern_repo/blob/2026-Spring-MS-Petrajoy_Davidson/slide_draft/ProtStack_DVB.md#major-components-in-dvb-s2x--dvb-rcs2-systems)
+  - Added missing interface directions and RF control flow [Go To: Study Notes](https://github.com/petrajoyd/intern_repo/blob/2026-Spring-MS-Petrajoy_Davidson/study_notes/DVB_System-Architecture.md)
 - `10:00–11:30`:
-  - Skimmed two resource management papers (TBD – links to be added)
+  - Skimmed two resource management papers [Journal 1](https://github.com/petrajoyd/intern_repo/blob/2026-Spring-MS-Petrajoy_Davidson/journals/SJ_IDAFMDVB_RCSS.md) [Journal 2](https://github.com/petrajoyd/intern_repo/blob/2026-Spring-MS-Petrajoy_Davidson/journals/SJ_AOTUODRAMFIT.md)
   - Focused on identifying traffic models:
     - CRA (constant rate)
     - RBDC (rate-based)
@@ -103,22 +103,22 @@
     - RA (random access)
   - Started comparative matrix (traffic type × allocation method)
 - `11:30–12:00`:
-  - Extracted QoS approaches:
+  - Extracted QoS approaches [Journal 1](https://github.com/petrajoyd/intern_repo/blob/2026-Spring-MS-Petrajoy_Davidson/journals/SJ_IDAFMDVB_RCSS.md) [Journal 2](https://github.com/petrajoyd/intern_repo/blob/2026-Spring-MS-Petrajoy_Davidson/journals/SJ_AOTUODRAMFIT.md):
     - DSCP-based classification (DiffServ)
     - Use of priority queues
     - TCP optimization via PEP (e.g., SCPS-TP, TCP splitting)
 - `13:00–14:30`:
-  - Studied beam hopping algorithm concepts
+  - Studied beam hopping algorithm concepts [Go To: Beam Hopping Notes](https://github.com/petrajoyd/intern_repo/blob/2026-Spring-MS-Petrajoy_Davidson/study_notes/beam_hopping-basics.md)
     - Scheduling techniques for 4, 8, 16 beams
     - Metrics: fairness, throughput, switching delay
   - Noted factors like dwell time, user demand mapping, frequency re-use
 - `14:30–15:30`:
-  - Skimmed routing models with MPLS-based pathing
+  - Skimmed routing models with MPLS-based pathing [Go To: MPLS-BP Notes](https://github.com/petrajoyd/intern_repo/blob/2026-Spring-MS-Petrajoy_Davidson/study_notes/MPLS_LSP_Service-Class-Differentiation.md)
     - LSP setup logic
     - Differentiation by service class (EF, AF, BE)
     - Noted how satellite systems implement pre-defined routes
 - `15:30–16:30`:
-  - Launched and explored ns-3 NTN test scenario
+  - Launched and explored ns-3 NTN test scenario [sns3](https://github.com/sns3/sns3-satellite) [ns3/LEO](https://hackmd.io/@ycchiu514/BJPVmfInR)
     - Identified input parameters (topology, delay, MODCOD config)
     - Observed basic link behavior (UT ↔ GW)
 
@@ -133,8 +133,8 @@
 
 **📝 Daily Logs:**  
 - `9:00–12:00`:
-  - Finalized the ns-3 environment setup.
-  - Resolved the CMake dependency issue by installing the package via apt-get.
+  - Finalized the ns-3 environment setup [Setup](https://github.com/sns3/sns3-satellite/blob/master/README.md).
+  - Resolved the CMake dependency issue by installing the package via apt-get [Setup: CMake](https://github.com/sns3/sns3-satellite/blob/master/README.md#cmake).
   - Successfully ran ./ns3 configure and ./ns3 build to confirm a healthy, compiled project.
 - `13:00–15:00`:
   - Performed a "tour" of the ns-3 directory structure to understand the layout (src, examples, scratch).
@@ -166,14 +166,14 @@
   - Review NTUST visa-related steps (physical vs e-copy requirements) while waiting
 - `13:00–16:00`:
   - Re-read Prof. Ray’s task description
-  - Draft 50-slide presentation outline:
+  - Draft 50-slide presentation outline [Go To: Slide Draft](https://github.com/petrajoyd/intern_repo/blob/2026-Spring-MS-Petrajoy_Davidson/slide_draft/initial_draft.md):
     - System architecture
     - Protocol stack
     - L1 frame structure
     - Logical & physical channels
-  - Set up folder structure: /slides_draft, /specs, /figures, /logs
+  - Set up folder structure: /slides_draft, /specs, /figures, /logs [GitHub Folder](https://github.com/petrajoyd/intern_repo/tree/2026-Spring-MS-Petrajoy_Davidson/slide_draft)
   - Collect DVB-S2X and RCS2 references into /specs folder
-  - Write a short summary of what you’ll focus on first (e.g., system overview)
+  - Write a short summary of what you’ll focus on first (e.g., system overview) [Go To: Slide Draft](https://github.com/petrajoyd/intern_repo/blob/2026-Spring-MS-Petrajoy_Davidson/slide_draft/initial_draft.md#slides-timeline):
 
 ---
 
@@ -188,28 +188,28 @@
 
 **📝 Daily Logs:**  
 - `9:00–10:30`:
-  - Revisit DVB-S2X overview
-  - Extract system architecture (uplink/downlink + forward/return links)
+  - Revisit DVB-S2X overview [System Architecture Notes](https://github.com/petrajoyd/intern_repo/blob/2026-Spring-MS-Petrajoy_Davidson/study_notes/DVB_System-Architecture.md) [Key Structural Elements](https://github.com/petrajoyd/intern_repo/blob/2026-Spring-MS-Petrajoy_Davidson/study_notes/DVBs_Key-Elements.md)
+  - Extract system architecture (uplink/downlink + forward/return links) [System Architecture Notes](https://github.com/petrajoyd/intern_repo/blob/2026-Spring-MS-Petrajoy_Davidson/study_notes/DVB_System-Architecture.md)
   - Screenshot or vector-recreate key block diagrams
 - `10:30–12:00`:
   - Read DVB-RCS2: focus on return link structure and MAC layers
-  - Highlight relevant logical channel functions for NTN use
 - `12:00–13:00`:
   - Lunch break + backup work folder to GitHub/Trello repo
 - `13:00–14:30`:
-  - Begin drafting slides 1–5:
+  - Begin drafting slides 1–5 [Draft Slides](https://github.com/petrajoyd/intern_repo/blob/2026-Spring-MS-Petrajoy_Davidson/slide_draft/initial_draft.md#sldie-1-10):
     - Title page
     - Introduction
-    - DVB system E2E architecture
-    - DVB-S2X functional blocks
+    - DVB system E2E architecture [Jump Into: Study Notes](https://github.com/petrajoyd/intern_repo/blob/2026-Spring-MS-Petrajoy_Davidson/slide_draft/ms1_dvb_e2e.md#study-notes-dvb-end-to-end-system-architecture)
+    - DVB-S2X functional blocks [Jump Into: Study Notes](https://github.com/petrajoyd/intern_repo/blob/2026-Spring-MS-Petrajoy_Davidson/slide_draft/ms1_dvb_e2e.md#system-analysis-following-the-data-path)
     - General system layout
 - `14:30–16:00`:
-  - Draft slides 6–10:
-    - Protocol stack (DVB vs NTN NR)
-    - Layer mapping (L1/L2 comparison)
-    - Note key adaptation points
-    - Save .pptx and version it
-    - Plan next section (L1 Frame Structure) for July 30
+  - Draft slides 6–10 [Draft Slides](https://github.com/petrajoyd/intern_repo/blob/2026-Spring-MS-Petrajoy_Davidson/slide_draft/initial_draft.md#sldie-1-10):
+    - System Components: DVB-RCS2 [Go To: Notes](https://github.com/petrajoyd/intern_repo/blob/2026-Spring-MS-Petrajoy_Davidson/slide_draft/ms1_dvb_e2e.md#24-return-link-control-system-benchmark-dvb-rcs2-components)
+    - DVB E2E Forward Link Architecture [Go To: Notes](https://github.com/petrajoyd/intern_repo/blob/2026-Spring-MS-Petrajoy_Davidson/slide_draft/ms1_dvb_e2e.md#25-physical-forward-link-benchmark-forward-link-architecture)
+    - DVB E2E Return Link Architecture [Go To: Notes](https://github.com/petrajoyd/intern_repo/blob/2026-Spring-MS-Petrajoy_Davidson/slide_draft/ms1_dvb_e2e.md#26-physical-return-link-benchmark-return-link-architecture)
+    - Combined DVB System Architecture [Go To: Notes](https://github.com/petrajoyd/intern_repo/blob/2026-Spring-MS-Petrajoy_Davidson/slide_draft/ms1_dvb_e2e.md#27-the-combined-e2e-architecture-benchmark-combined-dvb-system)
+    - Key Takeaways [Go To: Notes](https://github.com/petrajoyd/intern_repo/blob/2026-Spring-MS-Petrajoy_Davidson/slide_draft/ms1_dvb_e2e.md#3-key-takeaways--dvb-e2e-recap)
+    - Plan Next Action [Go To: Notes](https://github.com/petrajoyd/intern_repo/blob/2026-Spring-MS-Petrajoy_Davidson/slide_draft/ms1_dvb_e2e.md#4-next-steps-deeper-dive)
 
 ---
 
@@ -223,24 +223,27 @@
 
 **📝 Daily Logs:**  
 - `18:00–19:00`:
-  - Read DVB-S2X section on system overview and physical layer design
-  - Identify and screenshot E2E system architecture diagrams (uplink/downlink)
+  - Read DVB-S2X section on system overview and physical layer design [System Architecture Notes](https://github.com/petrajoyd/intern_repo/blob/2026-Spring-MS-Petrajoy_Davidson/study_notes/DVB_System-Architecture.md)
+  - Identify and screenshot E2E system architecture diagrams (uplink/downlink) [Go To: Notes](https://github.com/petrajoyd/intern_repo/blob/2026-Spring-MS-Petrajoy_Davidson/slide_draft/ms1_dvb_e2e.md#2-system-analysis-following-the-data-path)
 - `19:00–20:00`:
-  - Skim DVB-RCS2 spec for return link and MAC overview
-  - Note the logical and physical channel mappings in RCS2
+  - Skim DVB-RCS2 spec for return link and MAC overview [Go To: Notes](https://github.com/petrajoyd/intern_repo/blob/2026-Spring-MS-Petrajoy_Davidson/slide_draft/ms1_dvb_e2e.md#24-return-link-control-system-benchmark-dvb-rcs2-components)
+  - Note the logical and physical channel mappings in RCS2 [Go To: Notes](https://github.com/petrajoyd/intern_repo/blob/2026-Spring-MS-Petrajoy_Davidson/slide_draft/ms1_dvb_e2e.md#26-physical-return-link-benchmark-return-link-architecture)
   - Begin mapping how NR may align or differ in logical/physical structure
 - `20:00–21:00`:
-  - Draft Slides 1–5:
-    - Title + Introduction
-    - DVB E2E Architecture
-    - Forward/Return link breakdown
-    - System components and block diagrams
+  - Begin drafting slides 1–5 [Draft Slides](https://github.com/petrajoyd/intern_repo/blob/2026-Spring-MS-Petrajoy_Davidson/slide_draft/initial_draft.md#sldie-1-10):
+    - Title page
+    - Introduction
+    - DVB system E2E architecture [Jump Into: Study Notes](https://github.com/petrajoyd/intern_repo/blob/2026-Spring-MS-Petrajoy_Davidson/slide_draft/ms1_dvb_e2e.md#study-notes-dvb-end-to-end-system-architecture)
+    - DVB-S2X functional blocks [Jump Into: Study Notes](https://github.com/petrajoyd/intern_repo/blob/2026-Spring-MS-Petrajoy_Davidson/slide_draft/ms1_dvb_e2e.md#system-analysis-following-the-data-path)
+    - General system layout
 - `21:00–22:00`:
-  - Draft Slides 6–10:
-    - Protocol stack layering
-    - Comparison: DVB stack vs 5G NR stack
-    - Early notes for future NTN NR integration
-    - Save progress to /slides_draft, backup files to GitHub/local
+  - Draft slides 6–10 [Draft Slides](https://github.com/petrajoyd/intern_repo/blob/2026-Spring-MS-Petrajoy_Davidson/slide_draft/initial_draft.md#sldie-1-10):
+    - System Components: DVB-RCS2 [Go To: Notes](https://github.com/petrajoyd/intern_repo/blob/2026-Spring-MS-Petrajoy_Davidson/slide_draft/ms1_dvb_e2e.md#24-return-link-control-system-benchmark-dvb-rcs2-components)
+    - DVB E2E Forward Link Architecture [Go To: Notes](https://github.com/petrajoyd/intern_repo/blob/2026-Spring-MS-Petrajoy_Davidson/slide_draft/ms1_dvb_e2e.md#25-physical-forward-link-benchmark-forward-link-architecture)
+    - DVB E2E Return Link Architecture [Go To: Notes](https://github.com/petrajoyd/intern_repo/blob/2026-Spring-MS-Petrajoy_Davidson/slide_draft/ms1_dvb_e2e.md#26-physical-return-link-benchmark-return-link-architecture)
+    - Combined DVB System Architecture [Go To: Notes](https://github.com/petrajoyd/intern_repo/blob/2026-Spring-MS-Petrajoy_Davidson/slide_draft/ms1_dvb_e2e.md#27-the-combined-e2e-architecture-benchmark-combined-dvb-system)
+    - Key Takeaways [Go To: Notes](https://github.com/petrajoyd/intern_repo/blob/2026-Spring-MS-Petrajoy_Davidson/slide_draft/ms1_dvb_e2e.md#3-key-takeaways--dvb-e2e-recap)
+    - Plan Next Action [Go To: Notes](https://github.com/petrajoyd/intern_repo/blob/2026-Spring-MS-Petrajoy_Davidson/slide_draft/ms1_dvb_e2e.md#4-next-steps-deeper-dive)
  
 ---
 
@@ -255,18 +258,18 @@
 
 **📝 Daily Logs:**  
 - `18:00–19:00`:
-  - Refresher: Read key RCS2 diagrams + extract components
-  - Sketch structure for slides 11–13
+  - Refresher: Read key RCS2 diagrams + extract components [Go To: Notes](https://github.com/petrajoyd/intern_repo/blob/2026-Spring-MS-Petrajoy_Davidson/study_notes/DVBs_Key-Elements.md#dvb-rcs2-key-structural-elements-etsi-en-302-307-2)
+  - Sketch structure for slides 11–13 [Slide Draft](https://github.com/petrajoyd/intern_repo/blob/2026-Spring-MS-Petrajoy_Davidson/slide_draft/initial_draft.md#slide-10-20)
 - `19:00–20:00`:
-  - Draft Slide 11–13 (focus on RCS2 architecture and functional flow)
+  - Draft Slide 11–13 (focus on RCS2 architecture and functional flow) [Go To: Notes](https://github.com/petrajoyd/intern_repo/blob/2026-Spring-MS-Petrajoy_Davidson/slide_draft/ProtStack_DVB.md#24-dvb-rcs2-system-overview)
   - Align visual style with earlier DVB-S2X slides
 - `20:00–21:00`:
   - Work on Slides 14–15 (Forward/Return link comparison)
-  - Build protocol stack draft layout
+  - Build protocol stack draft layout [Go To: Notes](https://github.com/petrajoyd/intern_repo/blob/2026-Spring-MS-Petrajoy_Davidson/slide_draft/ProtStack_DVB.md#27-dvb-rcs2-return-link-protocol-stack)
 - `21:00–22:00`:
   - Finish Slides 16–17
-  - Quick review of today’s draft
-  - Push progress to GitHub (if time permits)
+  - Quick review of today’s draft [Recap](https://github.com/petrajoyd/intern_repo/blob/2026-Spring-MS-Petrajoy_Davidson/slide_draft/ProtStack_DVB.md#3-key-takeaways--recap)
+  - Push progress to GitHub (if time permits) [Study Notes](https://github.com/petrajoyd/intern_repo/blob/2026-Spring-MS-Petrajoy_Davidson/slide_draft/ProtStack_DVB.md#study-notes-protocol-stack-for-dvb-s2x-and-dvb-rcs2)
  
 ---
 
@@ -282,7 +285,7 @@
 
 **📝 Daily Logs:**  
 - `18:00–19:00`:
-  - Draft content + bullet points for new Slide 11: “DVB-S2X Forward Link Protocol Stack”
+  - Draft content + bullet points for new Slide 11: “DVB-S2X Forward Link Protocol Stack” [Go To: Notes](https://github.com/petrajoyd/intern_repo/blob/2026-Spring-MS-Petrajoy_Davidson/slide_draft/ProtStack_DVB.md#22-dvb-s2x-forward-link-protocol-stack)
   - Begin visual design (layered block layout)
 - `19:00–20:00`:
   - Create visual diagram (Python or manual import)
@@ -291,7 +294,7 @@
 - `20:00–21:00`:
   - Refactor RCS2 slides (Slide 14 onward): ensure flow is maintained
 - `21:00–22:00`:
-  - Optional: Polish text for Slide 12 (GSE + BBFRAME)
+  - Optional: Polish text for Slide 12 (GSE + BBFRAME) [Go To: Notes](https://github.com/petrajoyd/intern_repo/blob/2026-Spring-MS-Petrajoy_Davidson/slide_draft/ProtStack_DVB.md#23-forward-link-framing-context)
   - Review entire Section 2 (Slides 11–20) for logical completeness
  
 ---
@@ -309,13 +312,13 @@
 - `18:00–19:00`:
   - Final review of Protocol Stack section (Slides 11–13)
   - Create bridge/transition bullet points into L1 section
-  - Outline slide flow:
+  - Outline slide flow [Go To: Notes](https://github.com/petrajoyd/intern_repo/blob/2026-Spring-MS-Petrajoy_Davidson/slide_draft/ProtStack_DVB.md#23-forward-link-framing-context):
     - BBFRAME internals
     - PLS Header
     - PLFRAME
     - Pilot symbols
 - `19:00–20:00`:
-  - Build Slide 21: L1 Framing Overview
+  - Build Slide 21: L1 Framing Overview [Go To: Notes](https://github.com/petrajoyd/intern_repo/blob/2026-Spring-MS-Petrajoy_Davidson/slide_draft/ProtStack_DVB.md#23-forward-link-framing-context)
     - Visual: high-level framing pipeline (BBFRAME → FEC → PLFRAME)
     - Bullet summary of framing layers
     - Caption: “DVB-S2X physical layer builds robust frames through coding, framing, and modulation”
@@ -344,11 +347,11 @@
 **📝 Daily Logs:**  
 - `18:00–19:00`:
   - Finalize Slide 25 (RCST Burst Structure)
-  - Draft Slide 26: MF-TDMA time-frequency grid structure
+  - Draft Slide 26: MF-TDMA time-frequency grid structure [MF-TDMA Notes](https://github.com/petrajoyd/intern_repo/blob/2026-Spring-MS-Petrajoy_Davidson/slide_draft/ProtStack_DVB.md#28-physical-layer-dvb-rcs2-return-link-transmission)
     - Explain how bursts are scheduled
     - Visual idea: 2D slot grid (Freq × Time)
 - `19:00–20:00`:
-  - Build Slide 27: How RCSTs are assigned slots
+  - Build Slide 27: How RCSTs are assigned slots [Go To: Notes](https://github.com/petrajoyd/intern_repo/blob/2026-Spring-MS-Petrajoy_Davidson/slide_draft/ProtStack_DVB.md#29-qos-and-scheduling-in-dvb-rcs2-return-link)
     - Cover types: contention-based vs scheduled bursts
     - Include a diagram showing dynamic allocation
     - Optional: DRA process or NCC’s role in scheduling”
@@ -374,27 +377,22 @@
 
 **📝 Daily Logs:**  
 - `18:00–19:00`:
-  - Draft Slide 36: Intro to Logical vs Physical Channels
+  - Draft Slide 36: Intro to Logical vs Physical Channels [Go To: Notes](https://github.com/petrajoyd/intern_repo/blob/2026-Spring-MS-Petrajoy_Davidson/slide_draft/lnp_channel_dvb.md#21-slide-37--intro-to-logical--physical-channels)
   - Clarify why this section matters post-framing
   - Visual idea: Side-by-side comparison table or layered flow
 - `19:00–20:00`:
-  - Draft Slide 37: What Are Logical Channels?
+  - Draft Slide 37: What Are Logical Channels? [Go To: Notes](https://github.com/petrajoyd/intern_repo/blob/2026-Spring-MS-Petrajoy_Davidson/slide_draft/lnp_channel_dvb.md#22-slide-38--what-are-logical-channels)
   - Cover: GSE Streams, TS Packets, traffic flows
   - Mention how logical channels ride inside physical framing
   - Optional: Add diagram showing GSE flow split across BBFRAMEs
 - `20:00–21:00`:
-  - Draft Slide 38: What Are Physical Channels?
+  - Draft Slide 38: What Are Physical Channels? [Go To: Notes](https://github.com/petrajoyd/intern_repo/blob/2026-Spring-MS-Petrajoy_Davidson/slide_draft/lnp_channel_dvb.md#23-slide-39--what-are-physical-channels)
   - Cover: Modulation, frequency, time slots, bursts
   - Show how physical resources carry logical channels
   - Visual: Grid showing frequency/time/slot allocation
 - `21:00–22:00`:
-  - Outline Slides 39–45 (titles, key topics per slide)
-  - Bridge into use cases for S2X and RCS2
-  - Consider adding slides for:
-    - Channel mapping table
-    - Frequency reuse / slot reuse
-    - Pilot symbols vs payload symbols
-    - Examples in different service configurations
+  - Outline Slides 39–45 (titles, key topics per slide) [Slide Draft](https://github.com/petrajoyd/intern_repo/blob/2026-Spring-MS-Petrajoy_Davidson/slide_draft/initial_draft.md#slide-36-45)
+    - Draft Notes for: Slides 40-45 [Go To: Notes](https://github.com/petrajoyd/intern_repo/blob/2026-Spring-MS-Petrajoy_Davidson/slide_draft/lnp_channel_dvb.md#24-slide-40--logical-channels-in-dvb-s2x)
  
 ---
 
@@ -445,7 +443,7 @@
 
 **📝 Daily Logs:**  
 - `18:00–19:00`:
-  - Organize folders in GitHub repo by section (System Architecture, Protocol Stack, L1 Frame Structure, Logical & Physical Channels, Final Integration).
+  - Organize folders in GitHub repo by section (System Architecture, Protocol Stack, L1 Frame Structure, Logical & Physical Channels, Final Integration). [GitHub Folder](https://github.com/petrajoyd/intern_repo/tree/2026-Spring-MS-Petrajoy_Davidson/slide_draft)
 - `19:00–20:00`:
   - Upload notes for July 29-31 with diagrams and references.
   - Add links to each Trello task for these dates.
@@ -526,14 +524,14 @@
 **📝 Daily Logs:**  
 - `18:00–19:00`:
   - Clone BMW Lab repo.
-  - Create branch 2025-Fall-MS-Joy.
+  - Create branch 2025-Fall-MS-Joy. [Branch](https://github.com/petrajoyd/intern_repo/tree/2026-Spring-MS-Petrajoy_Davidson)
   - Set up folder structure (README.md, milestones.md, ./docs/).
 - `19:00–20:00`:
   - Move existing study notes into ./docs/.
   - Add diagrams + references.
   - Commit & push changes.
 - `20:00–21:00`:
-  - Upload all codes (Graphviz, Python, processing tools).
+  - Upload all codes (Graphviz, Python, processing tools). [Section 1](https://github.com/petrajoyd/intern_repo/blob/2026-Spring-MS-Petrajoy_Davidson/slide_draft/section1_code.py) [Section 2](https://github.com/petrajoyd/intern_repo/blob/2026-Spring-MS-Petrajoy_Davidson/slide_draft/section2_code.py) [Section 3](https://github.com/petrajoyd/intern_repo/blob/2026-Spring-MS-Petrajoy_Davidson/slide_draft/section3_code.py) [Section 4](https://github.com/petrajoyd/intern_repo/blob/2026-Spring-MS-Petrajoy_Davidson/slide_draft/section4_code.py)
   - Write short README explanations for each code file.
 - `21:00–22:00`:
   - Link Trello checklist items to GitHub headers.
