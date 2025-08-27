@@ -1,6 +1,4 @@
-#Slide Draft
-
-#Slide Subheadings
+# Slide Subheadings
 1. Intro to DVB (3 slides)
 2. DVB-S2X Overview (10 slides)
 3. DVB-RCS2 Overview (10 slides)
